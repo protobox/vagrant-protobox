@@ -1,0 +1,13 @@
+en:
+  vagrant_protobox:
+    actions:
+      switch_config:
+        switched: |-
+          Switch configuration to %{name}
+
+    errors:
+      config_not_found: |-
+        Could not find protobox configuration file.
+
+        Config Name: %{name}
+        Config Path: %{path}

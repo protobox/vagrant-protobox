@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'protobox'
+
+VagrantPlugins::Protobox::Command.execute
