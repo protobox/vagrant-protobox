@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Patrick Heeney']
   s.email       = ["patrickheeney@gmail.com"]
-  s.homepage    = "https://getprotobox.com"
+  s.homepage    = "http://getprotobox.com"
   s.license     = "MIT"
   s.summary     = "The official getprotobox.com command line helper."
   s.description = "The official getprotobox.com command line helper."
