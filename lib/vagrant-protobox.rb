@@ -20,7 +20,7 @@ LOGOBLOCK
     end
 
     def self.system_dir(path)
-      @system_dir ||= path.join('.protobox')
+      @system_dir ||= Pathname.new(File.expand_path("./.protobox", path))
     end
 
     # This returns the path to the source of this plugin.
